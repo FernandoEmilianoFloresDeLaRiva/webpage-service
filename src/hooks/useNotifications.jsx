@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import io from "socket.io-client";
+import {io} from "socket.io-client";
 
 export function useNotifications() {
   const socket = io("http://54.145.127.250:6000");
